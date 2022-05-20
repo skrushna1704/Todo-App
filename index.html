@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" class="href" />
+
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <h1 class="heading"><span>ToDo</span> List</h1>
+    <div class="container">
+      <input
+        type="text"
+        id="textValue"
+        class="inputText"
+        placeholder="Enter Your Task"
+      />
+      <input type="hidden" id="saveindex" />
+      <button class="saveBtn" id="saveTask" style="display: none">
+        SaveTask
+      </button>
+      <button class="addBtn" id="addTask">AddTask</button><br />
+    </div>
+    <div class="addlist">
+      <table id="taskList"></table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
